@@ -1,0 +1,32 @@
+nav {
+    background:url('../assets/medp5.jpg');
+    color: #fff;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+  
+  a {
+    color: #f8f7f7;
+    text-decoration: none;
+    font-size: xx-large;
+    background-color: #f77ac3;
+  }
+  
+  .sit-title{
+    font-size: xx-large;
+    background-color: #f77ac3;
+  }
