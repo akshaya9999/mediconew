@@ -1,8 +1,8 @@
 from django.contrib import admin
-from .models import Users
+from .models import Med
 # Register your models here.
 
-class UsernameDis(admin.ModelAdmin):
+class MednameDis(admin.ModelAdmin):
     list_display= ('medname','sympt','name','email')
 
-admin.site.register(Users,UsernameDis)
+admin.site.register(Med,MednameDis)

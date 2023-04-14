@@ -1,6 +1,6 @@
 from django.db import models
 
-class Users(models.Model):
+class Med(models.Model):
     medname = models.CharField(max_length=200)
     sympt = models.TextField()
     name = models.CharField(max_length=50,unique=True)

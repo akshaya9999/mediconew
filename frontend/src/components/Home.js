@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
     <div className="full">
-      <div className="bgpic">
+      <div className="bgpic"></div>
       <div className="inpara">
       <p>MEDICO</p>
       </div>
@@ -15,7 +15,7 @@ const Home = () => {
       <p>Medico will provide you a platform to explore the symptoms that people experienced due to certain medicines</p>
       <p>Check if you've had the symptoms and also add your own symptoms as well</p>
       </div>
-      </div>
+      
       <div className="pic1"></div>
       
       <div className="para3">
