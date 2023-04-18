@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate} from 'react-router-dom';
+import "./Add.css"
 
 function Add() {
   const [medname, setMedname] = useState("");
@@ -13,7 +14,7 @@ function Add() {
     e.preventDefault();
     const med = { medname, sympt, name ,email };
     try {
-        const response = await fetch('http://127.0.0.1:8001/createmed/', {
+        const response = await fetch('http://127.0.0.1:8000/createmed/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -33,7 +34,10 @@ function Add() {
 }
 
   return (
+    <div className="bg">
     <form onSubmit={handleSubmit}>
+      <div className="box">
+
       <label>
         Medicine Name:
         <input type="text" value={medname} name='medname' onChange={(e) => setMedname(e.target.value)} />
@@ -55,7 +59,9 @@ function Add() {
       </label>
       <br />
       <button type="submit">Add</button>
+      </div>
     </form>
+    </div>
   );
 }
 export default Add;

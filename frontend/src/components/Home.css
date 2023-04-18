@@ -6,19 +6,19 @@
     position: absolute;
     padding-top: 10px;
     right: 0;
-    bottom: -100px;
+    bottom: -110px;
 }
 .inpara{
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
-    color: #f77ac3;
+    color: rgb(159, 40, 175);
     text-align: center;
     text-decoration: underline;
 
 }
 .para2{
     font-size: xx-large;
-    color: #f77ac3;
+    color:  rgb(159, 40, 175);
     text-align: center;
     position: relative;
    
@@ -30,7 +30,7 @@
     color: rgb(159, 40, 175);
     float: left;
     width: 45%;
-    padding-top: 500px;
+    padding-top: 150px;
     padding-left: 50px;
     
 
@@ -44,7 +44,7 @@
     position: absolute;
     padding-top: 10px;
     left: 0;
-    bottom: -650px;
+    bottom: -600px;
     
 }
 .para4{
@@ -52,7 +52,7 @@
     color: rgb(159, 40, 175);
     float: right;
     width: 45%;
-    padding-top: 1000px;
+    padding-top: 600px;
     padding-left: 50px;
 
 }
@@ -61,7 +61,7 @@
     color: #f77ac3;
     text-align: center;
     
-    padding-top: 1500px;
+    padding-top: 1100px;
     
     
 
@@ -83,7 +83,7 @@
     background:url('../assets/medp7.jpg');
     background-size: cover;
     width: 100%;
-    height: 90%;
+    height: 87%;
     position: absolute;
     opacity: 0.25;
     
