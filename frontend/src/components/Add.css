@@ -65,4 +65,9 @@
     position: absolute;
     /* opacity: 0.5; */
   }
+  h1{
+    padding-top: 100px;
+    text-align: center;
+
+  }
   

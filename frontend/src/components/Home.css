@@ -7,18 +7,19 @@
     padding-top: 10px;
     right: 0;
     bottom: -110px;
+    border-radius: 20px;
 }
 .inpara{
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
-    color: rgb(159, 40, 175);
+    color: rgb(0, 0, 0);
     text-align: center;
     text-decoration: underline;
 
 }
 .para2{
     font-size: xx-large;
-    color:  rgb(159, 40, 175);
+    color:  rgb(0, 0, 0);
     text-align: center;
     position: relative;
    
@@ -27,7 +28,7 @@
 }
 .para3{
     font-size: xx-large;
-    color: rgb(159, 40, 175);
+    color: rgb(0, 0, 0);
     float: left;
     width: 45%;
     padding-top: 150px;
@@ -45,11 +46,12 @@
     padding-top: 10px;
     left: 0;
     bottom: -600px;
+    border-radius: 20px;
     
 }
 .para4{
     font-size: xx-large;
-    color: rgb(159, 40, 175);
+    color: rgb(0, 0, 0);
     float: right;
     width: 45%;
     padding-top: 600px;
@@ -58,7 +60,7 @@
 }
 .para5{
     font-size: xx-large;
-    color: #f77ac3;
+    color: #000000;
     text-align: center;
     
     padding-top: 1100px;

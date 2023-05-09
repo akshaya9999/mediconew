@@ -35,8 +35,10 @@ function Add() {
 
   return (
     <div className="bg">
+      <h1>Add Symptoms</h1>
     <form onSubmit={handleSubmit}>
       <div className="box">
+        
 
       <label>
         Medicine Name:
