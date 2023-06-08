@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './Explore.css'
 
 function MedView() {
   const [meds, setMeds] = useState([]);
@@ -21,19 +20,19 @@ function MedView() {
   };
 
   return (
-    <div>
-      <div className='heading'>
-        <h1>Medications List</h1>
+    <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
+      <div className="heading text-center">
+        <h1 className='text-4xl text-cyan-800'>Medications List</h1>
       </div>
-      <div className='search-bar'>
-        <input type='text' placeholder='Search by name' value={searchQuery} onChange={handleSearchChange} />
+      <div className="pt-10">
+        <input type="text" placeholder="Search by Medicine name" value={searchQuery} onChange={handleSearchChange} className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-cyan-500 focus:border-cyan-500 w-full" />
       </div>
-      <div className='meds-container'>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
         {filteredMeds.map(med => (
-          <div key={med.medname} className='med-box'>
-            <h2>Name: {med.medname}</h2>
-            <p>Symptom: {med.sympt}</p>
-            <p>Name: {med.name}</p>
+          <div key={med.medname} className="bg-white rounded-md shadow-md p-4">
+            <h2 className="text-xl font-bold mb-2 text-cyan-800">Medicine Name: {med.medname}</h2>
+            <p className="mb-2">Side Effectss: {med.sympt}</p>
+            <p className="mb-2">Name: {med.name}</p>
           </div>
         ))}
       </div>
